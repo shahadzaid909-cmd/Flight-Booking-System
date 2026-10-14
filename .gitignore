@@ -3,4 +3,6 @@ dist/
 nbproject/private/
 *.class
 *.log
+.idea/
+.vscode/
 .DS_Store

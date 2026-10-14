@@ -1,13 +1,20 @@
-# Flight Booking System
+# Flight Booking System ✈️
 
-A Java flight-booking application developed as a NetBeans project, with a JavaFX-based graphical interface.
+A Java university project for managing flights, passengers, and bookings. Includes economy, business, and first-class flight models, a console menu, a GUI class, and text-file utilities.
 
-## Project files
-- `src/flight/booking/system/` — Java source files for flights, passengers, bookings, cabin classes, taxi services, and the GUI.
-- `nbproject/` — NetBeans project configuration.
-- `build.xml` and `manifest.mf` — build and launch configuration.
+## Tech stack
+- Java (project targets Java 8)
+- Apache NetBeans / Ant
 
-## Running the project
-Open the project in NetBeans with a compatible JDK and configure the JavaFX SDK/libraries if required. Review `src/flight/booking/system/Main.java` for the entry point.
+## Run
+1. Open this project in Apache NetBeans, or compile the Java source files with a compatible JDK.
+2. Run the main class `flight.booking.system.Main`.
+3. Follow the console menu to add flights and manage bookings.
 
-**Status:** Source code is being uploaded; compilation and GUI runtime have not yet been verified.
+## Structure
+- `src/flight/booking/system/`: Java source code
+- `nbproject/`: NetBeans project settings
+- `build.xml`: Ant build script
+
+## Notes
+The source includes a `GUI` class, but the configured entry point is the console-based `Main` class. Runtime behavior has not been fully tested.
